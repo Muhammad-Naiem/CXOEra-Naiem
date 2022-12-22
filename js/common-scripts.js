@@ -480,7 +480,40 @@
             $('.event-cancel-wrap').fadeOut()
         })
         
+        if($(".animated-cursor").length){
+            $(".animated-cursor").mouseenter(function(){
+                $(".circle-cursor").css({
+                    "opacity" : 1,
+                    "visibility" : "visible"
+                });
+                $(".circle-scroll-cursor").css({
+                    "opacity" : 0,
+                    "visibility" : "hidden"
+                });
+            });
+            $(".animated-cursor").mouseleave(function(){
+                $(".circle-cursor").css({
+                    "opacity" : 0,
+                    "visibility" : "hidden"
+                })
+            });
+        }
         
+        
+        
+        var isDragging = false;
+        $(".animated-cursor")
+        .mousedown(function(){
+            isDragging = false;
+            $("body").addClass("draged");
+        })
+        .mouseup(function() {
+            var wasDragging = isDragging;
+            isDragging = false;
+            if (!wasDragging) {
+                $("body").removeClass("draged");
+            }
+        });
         
 
     }) // End ready function.

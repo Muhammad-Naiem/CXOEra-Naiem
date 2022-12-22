@@ -1234,7 +1234,7 @@ var(--spanish-roast); }
 .summit-detail-where-item { width: 25.13464991023339%; background: rgba(0, 0, 0, 0.5); border-radius: 4px; padding: 9px 15px; display: flex; flex-flow: row wrap; align-items: center; margin-right: 1.4%; }
 .summit-detail-where-item-icon{float: left; width: 21px;}
 .summit-detail-where-item-text{float: left; width: calc(100% - 21px); padding-left: 12px;}
-.summit-detail-where-item-text span{font-weight: 600; font-size: 14px; line-height: 22px; display: block; letter-spacing: -0.2px; color: var(--orange); margin-bottom: 3px;}
+.summit-detail-where-item-text span{ font-family: 'LotaGrotesqueSemiBold'; font-size: 14px; line-height: 22px; display: block; letter-spacing: -0.2px; color: var(--orange); margin-bottom: 3px;}
 .summit-detail-where-item-text p{ font-size: 18px; line-height: 22px; letter-spacing: -0.2px; color: var(--white);}
 .summit-details-top-wrap{float: left; width: 100%; border-bottom: 1px solid rgba(255, 255, 255, 0.1); border-top: 1px solid rgba(255, 255, 255, 0.1);}
 .summit-details-top-wrap .common-wrap{max-width: 1154px;}
@@ -1266,7 +1266,7 @@ var(--spanish-roast); }
 .cxo-summit-tab-trigger ul { display: flex; flex-flow: row wrap; width: 100%; justify-content: center; column-gap: 10px; }
 .cxo-summit-tab-trigger ul li{width: auto; }
 .cxo-summit-tab-trigger ul li a { color: var(--dynamic-black); padding: 20px 92px; font-size: 18px; line-height: 23px; letter-spacing: -0.01em; font-weight: normal;     background-color: var(--whisper);}
-.cxo-summit-tab-trigger ul li.tab-active a { background-color: var(--blue-pigment); font-weight: bold; }
+.cxo-summit-tab-trigger ul li.tab-active a { background-color: var(--blue-pigment); font-family: 'LotaGrotesqueBold'; }
 .cxo-summit-tab-trigger ul li.tab-active a:hover{color: var(--white);}
 .cxo-summit-tab-trigger ul li a span { position: relative; z-index: 1; }
 .cxo-summit-tab-trigger ul li.tab-active a::after { content: ''; position: absolute; top: 0; left: 0; width: 100%; height: calc(100% - 4px); background-color: var(--glowing-lantern); -webkit-transition: all .4s ease-in-out; -moz-transition: all .4s ease-in-out; transition: all .4s ease-in-out; }
@@ -1303,9 +1303,9 @@ var(--spanish-roast); }
 .focus-areas-counter-wrap{ width: 100%;}
 .focus-areas-counter{float: left; width: 27px;}
 .focus-areas-counter span{ float: left; width: 100%; height: 100%; display: block; border-radius: 50%; position: relative; }
-.focus-areas-counter span:before { position: absolute; top: auto; left: auto; right: 0; width: 100%; height: 100%; font-size: 22px; line-height: 26px; color: var(--glowing-lantern); font-weight: 600; counter-increment: section; content: "0" counter(section); display: flex; flex-flow: row wrap; justify-content: center; align-items: center; }
+.focus-areas-counter span:before { position: absolute; top: auto; left: auto; right: 0; width: 100%; height: 100%; font-size: 22px; line-height: 26px; color: var(--glowing-lantern);  font-family: 'LotaGrotesqueSemiBold'; counter-increment: section; content: "0" counter(section); display: flex; flex-flow: row wrap; justify-content: center; align-items: center; }
 .focus-areas-counter-text{float: left; width: calc(100% - 27px); padding-left: 10px;}
-.focus-areas-counter-text h5{color: var(--white); font-weight: bold;}
+.focus-areas-counter-text h5{color: var(--white); font-family: 'LotaGrotesqueBold';}
 .focus-areas-item p{color: var(--white); font-size: 14px; line-height: 20px; opacity: 0.8; margin-top: 13px;}
 .cxoera-executive-board-wrap{float: left; width: 100%; min-height: 929px; padding: 78px 0;}
 .cxoera-executive-board-wrap .common-wrap{max-width: 100%; padding: 0;}
@@ -1350,7 +1350,7 @@ var(--spanish-roast); }
 .seattle-bg figure{float: left; width: 100%; height: 100%;}
 .seattle-bg figure img{float: left; width: 100%; height: 100%; object-fit: cover;}
 .seattle-inner {float: left; width: 100%; position: relative; z-index: 1;}
-.seattle-inner p{text-align: center; color: var(--white); letter-spacing: 0.05em; text-transform: uppercase; font-weight: 600; font-size: 16px; line-height: 14px;}
+.seattle-inner p{text-align: center; color: var(--white); letter-spacing: 0.05em; text-transform: uppercase;  font-family: 'LotaGrotesqueSemiBold'; font-size: 16px; line-height: 14px;}
 .summit-venue-wrap{float: left; width: 100%; padding: 59px 0;}
 .summit-venue-wrap .common-wrap{max-width: 700px;}
 .summit-venue-inner{float: left; width: 100%; padding-bottom: 121px;}
@@ -1365,7 +1365,7 @@ var(--spanish-roast); }
 .summit-venue-item-bg figure img{float: left; width: 100%; height: 100%; object-fit: cover;}
 .summit-venue-content{float: left; width: 100%; padding: 29px 24px; position: relative; z-index: 1;}
 .summit-venue-content .summit-detail-where-item{width: 42.42424242424242%; background-color: var(--white); border-radius: 4px;}
-.summit-venue-content .summit-detail-where-item-text p { color: #1D1B4B; font-weight: bold; margin-top: 0; opacity: inherit; font-size: 18px; }
+.summit-venue-content .summit-detail-where-item-text p { color: #1D1B4B; font-family: 'LotaGrotesqueBold'; margin-top: 0; opacity: inherit; font-size: 18px; }
 .summit-venue-item-wrap p { color: var(--white); margin-top: 22px; float: left; width: 100%; font-size: 16px; line-height: 21px; opacity: 0.8; }
 .summit-venue-btn{width: 100%; padding-top: 22px; column-gap: 10px;}
 .summit-venue-btn .visit-venue { padding: 20px 40px; font-size: 18px; line-height: 23px; letter-spacing: -0.01em; text-decoration-line: underline; color: var(--white); background: rgba(255, 255, 255, 0.1); }
@@ -1384,7 +1384,7 @@ var(--spanish-roast); }
 .meet-the-sponsors-logo{justify-content: center; align-items: center; width: 100%; padding-left: 10px;}
 .meet-the-sponsors-item:hover .meet-the-sponsors-content{opacity: 0.9; transition: 0.4s ease;}
 .meet-the-sponsors-content { float: left; width: 100%; background: var(--port-gore); opacity: 0; border-radius: 4px; position: absolute; top: 0; left: 0; height: 100%; display: flex; flex-flow: row wrap; justify-content: center; align-items: center; }
-.meet-the-sponsors-content a{font-size: 16px; line-height: 14px; letter-spacing: 0.05em; text-transform: uppercase; color: var(--white); font-weight: 600;}
+.meet-the-sponsors-content a{font-size: 16px; line-height: 14px; letter-spacing: 0.05em; text-transform: uppercase; color: var(--white);  font-family: 'LotaGrotesqueSemiBold';}
 .meet-the-sponsors-bg { float: left; width: 100%; padding-left: 7px; margin-top: 34px; }
 .meet-the-sponsors-bg .reasons-to-sponsor-join { min-height: 201px; padding: 53px 61px 71px 41px }
 .meet-the-sponsors-bg .reasons-to-sponsor-join-bg::after{background: linear-gradient(180deg, #3A3597 0%, rgba(58, 53, 151, 0) 100%); opacity: 0.7;}
@@ -1403,7 +1403,7 @@ var(--spanish-roast); }
 .summit-tab-wrap{float: left; width: 100%; padding-top: 77px;}
 .summit-agenda-tab-trigger{float: left; width: 28.72531418312388%; padding: 12px 14px; background-color: #F9F9F9; border-radius: 4px;}
 .summit-agenda-tab-trigger em{display: block; font-size: 14px; line-height: 18px;  letter-spacing: -0.019em;
- color: var(--orange); font-weight: 700; margin-top: 13px;}
+ color: var(--orange);  font-family: 'LotaGrotesqueBold'; margin-top: 13px;}
 .summit-agenda-tab-trigger ul{float: left; width: 100%; padding-top: 8px;}
 .summit-agenda-tab-trigger ul li{float: left; width: 100%; margin-bottom: 7px;}
 .summit-agenda-tab-trigger ul li:last-child{margin-bottom: 0;}
@@ -1414,51 +1414,51 @@ var(--spanish-roast); }
 .summit-agenda-tab-trigger ul li.tab-active a:hover::after { width: 0; }
 .summit-agenda-tab-trigger ul li a{padding: 10px 15px; font-size: 14px; line-height: 18px; width: 100%; background-color: #E9EAF3; }
 .summit-agenda-tab-trigger ul li p { color: #1D1B4B; opacity: 0.7; font-size: 14px; line-height: 18px; text-transform: uppercase; letter-spacing: 0.05em; }
-.summit-agenda-tab-trigger ul li a h6{color: #1D1B4B; margin-bottom: 12px; letter-spacing: -0.019em;  font-weight: bold; ;}
+.summit-agenda-tab-trigger ul li a h6{color: #1D1B4B; margin-bottom: 12px; letter-spacing: -0.019em;  font-family: 'LotaGrotesqueBold'; ;}
 .summit-agenda-tab-item-wrap { float: left; width: 69.47935368043088%; margin-left: 1.7%; }
 .summit-agenda-tab-item{float: left; width: 100%; display: none;}
 .summit-agenda-tab-item:first-child{display: block;}
 .filter-summit-agenda { float: left; width: 100%; background-color: var(--whisper); padding: 28px 25px; display: flex; flex-flow: row wrap; justify-content: space-between; align-items: center; }
 .filter-summit-agenda-text{float: left; width: auto;}
-.filter-summit-agenda-text p{font-size: 14px; line-height: 14px; font-weight: 600; color: var(--grey3);}
+.filter-summit-agenda-text p{font-size: 14px; line-height: 14px;  font-family: 'LotaGrotesqueSemiBold'; color: var(--grey3);}
 .filter-summit-agenda-item-wrap { float: left; justify-content: space-between; width: 41%; padding-right: 15px; }
 .filter-summit-agenda-item { float: left; width: 48%; }
 .search-select-item{float: left; width: 100%; }
-.search-select-item .selectric .label { font-size: 14px; line-height: 14px; color: #1D1B4B; padding: 0; padding-right: 26px; text-align: end; height: 20px; margin-top: 2px; font-weight: 600;}
+.search-select-item .selectric .label { font-size: 14px; line-height: 14px; color: #1D1B4B; padding: 0; padding-right: 26px; text-align: end; height: 20px; margin-top: 2px;  font-family: 'LotaGrotesqueSemiBold';}
 .search-select-item .selectric-items li { padding: 10px 5px; margin: 0; font-size: 14px; line-height: 14px; min-height: auto; color: #1D1B4B; }
 .search-select-item .selectric-items { top: 25px;}
 .search-select-item .selectric .button { height: 20px; background-image: url(../svgs/summit-detail/dw.svg); background-repeat: no-repeat; background-size: 8px 5px; background-position: center center; width: 20px; background-color: var(--white); border-radius: 50%; display: flex; flex-flow: row wrap; justify-content: center; align-items: center; }
 .filter-summit-showing{float: left; width: 100%; margin-top: 24px;}
-.filter-summit-showing p{font-size: 14px; line-height: 14px; letter-spacing: -0.01em; color: var(--grey3); font-weight: 500;}
-.filter-summit-showing p span{display: inline-block; font-weight: 700;}
+.filter-summit-showing p{font-size: 14px; line-height: 14px; letter-spacing: -0.01em; color: var(--grey3); font-family: 'LotaGrotesqueSemiBold';}
+.filter-summit-showing p span{display: inline-block;  font-family: 'LotaGrotesqueBold';}
 .summit-agenda-item-wrap{float: left; width: 100%; margin-top: 21px;}
 .summit-agenda-item{float: left; width: 100%; border: 1px solid #BDBDBD; border-radius: 2px; padding: 22px 29px 27px 21px; margin-bottom: 10px;}
 .summit-agenda-item-top{ justify-content: space-between; width: 100%; }
 .summit-agenda-item-top-left{float: left; width: 78%;}
-.summit-agenda-item-top-left span{padding: 5px 10px; display: inline-block; background-color: #EBEBF5; border-radius: 2px; font-size: 12px; line-height: 14px; letter-spacing: 0.05em; color: var(--blue-pigment); font-weight: 700; margin-bottom: 13px;}
-.summit-agenda-item-top-left h5 a { color: var(--port-gore) !important; font-weight: 600; padding: 0 32px 0 0 !important; text-decoration: none !important; font-size: 22px !important; line-height: 26px !important; }
+.summit-agenda-item-top-left span{padding: 5px 10px; display: inline-block; background-color: #EBEBF5; border-radius: 2px; font-size: 12px; line-height: 14px; letter-spacing: 0.05em; color: var(--blue-pigment);  font-family: 'LotaGrotesqueBold'; margin-bottom: 13px;}
+.summit-agenda-item-top-left h5 a { color: var(--port-gore) !important;  font-family: 'LotaGrotesqueSemiBold'; padding: 0 32px 0 0 !important; text-decoration: none !important; font-size: 22px !important; line-height: 26px !important; }
 .summit-agenda-item-top-right { float: left; width: 20%; }
-.summit-agenda-item-top-right em { font-size: 12px; line-height: 14px; font-weight: 500; margin-bottom: 6px; display: block; color: var(--grey3);}
+.summit-agenda-item-top-right em { font-size: 12px; line-height: 14px; font-family: 'LotaGrotesqueSemiBold'; margin-bottom: 6px; display: block; color: var(--grey3);}
 .summit-agenda-item-top-right ul{float: left; width: 100%;}
 .summit-agenda-item-top-right ul li { display: flex; flex-flow: row wrap; width: 100%; margin-bottom: 9px; }
 .summit-agenda-item-top-right ul li:last-child{margin-bottom: 0;}
 .summit-agenda-item-top-right ul li img{padding-right: 9px;}
-.summit-agenda-item-top-right ul li span{font-size: 14px; line-height: 14px; letter-spacing: -0.01em; font-weight: 600; color: #1D1B4B;} 
-.summit-agenda-item-top-right ul li a{font-size: 14px; line-height: 14px; letter-spacing: -0.01em; font-weight: 600; color: #1D1B4B; text-decoration: underline;} 
+.summit-agenda-item-top-right ul li span{font-size: 14px; line-height: 14px; letter-spacing: -0.01em;  font-family: 'LotaGrotesqueSemiBold'; color: #1D1B4B;} 
+.summit-agenda-item-top-right ul li a{font-size: 14px; line-height: 14px; letter-spacing: -0.01em;  font-family: 'LotaGrotesqueSemiBold'; color: #1D1B4B; text-decoration: underline;} 
 .summit-agenda-item-bottom{width: 100%; padding-top: 17px; justify-content: space-between;}
 .summit-agenda-item-bottom-speakers{float: left; width: 75%; margin-top: 9px;}
-.summit-agenda-item-bottom-speakers h6{font-size: 12px; line-height: 14px; font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase; color: var(--grey2);}
+.summit-agenda-item-bottom-speakers h6{font-size: 12px; line-height: 14px;  font-family: 'LotaGrotesqueSemiBold'; letter-spacing: 0.05em; text-transform: uppercase; color: var(--grey2);}
 .summit-agenda-bottom-speakers-item-wrap{width: 100%; padding-top: 15px; align-items: flex-start;}
 .summit-agenda-bottom-speakers-item { width: 47%; align-items: center; }
 .summit-agenda-bottom-speakers-thumb{float: left; width: 70px;}
 .summit-agenda-bottom-speakers-thumb figure{float: left; width: 100%;}
 .summit-agenda-bottom-speakers-thumb figure img{float: left; width: 100%; object-fit: cover;}
 .summit-agenda-bottom-speakers-content{float: left; width: calc(100% - 70px); padding-left: 12px;}
-.summit-agenda-bottom-speakers-content span{font-weight: 600; font-size: 14px; line-height: 18px; letter-spacing: -0.019em;  color: #1D1B4B; display: block; margin-bottom: 3px;}
+.summit-agenda-bottom-speakers-content span{ font-family: 'LotaGrotesqueSemiBold'; font-size: 14px; line-height: 18px; letter-spacing: -0.019em;  color: #1D1B4B; display: block; margin-bottom: 3px;}
 .summit-agenda-bottom-speakers-content p{font-style: italic; font-weight: normal; font-size: 14px; line-height: 18px; letter-spacing: -0.019em; color: var(--grey3);}
 .summit-agenda-bottom-speakers-item ul{display: flex; flex-flow: row wrap; align-items: center; width: 100%; padding-top: 5px; column-gap: 5px;}
 .summit-agenda-item-bottom-companies{width: 20%;}
-.summit-agenda-item-bottom-companies h6{font-weight: 500; font-size: 12px; line-height: 14px; letter-spacing: -0.01em; color: var(--grey3); margin-bottom: 11px;}
+.summit-agenda-item-bottom-companies h6{font-family: 'LotaGrotesqueSemiBold'; font-size: 12px; line-height: 14px; letter-spacing: -0.01em; color: var(--grey3); margin-bottom: 11px;}
 .bg-one{background-color: #F9F7EF;}
 .bg-two{background-color: #F9F9F9;}
 .pb-43{padding-bottom: 43px;}
@@ -1473,9 +1473,9 @@ var(--spanish-roast); }
 .speaker-details-main{ width: 100%; max-width: 886px; border-radius: 4px; background-color: var(--white); position: relative; margin: 0 auto; z-index: 99;}
 .speaker-detail-top{float: left; width: 100%; padding: 10px  17px 8px 20px; border-bottom: 1px solid #E9E9E9; align-items: center; justify-content: space-between;}
 .speaker-detail-top-heading{float: left; width: 50%;}
-.speaker-detail-top-heading h6{font-size: 16px; line-height: 14px; letter-spacing: 0.05em; text-transform: uppercase; font-weight: 600; color: var(--grey2);}
+.speaker-detail-top-heading h6{font-size: 16px; line-height: 14px; letter-spacing: 0.05em; text-transform: uppercase;  font-family: 'LotaGrotesqueSemiBold'; color: var(--grey2);}
 .speaker-detail-top-close { float: left; width: 30%; display: flex; flex-flow: row wrap; justify-content: flex-end; align-items: center; }
-.speaker-detail-top-close span{padding-right: 10px; font-size: 12px; line-height: 14px; letter-spacing: -0.01em; color: var(--grey3); font-weight: 500; display: inline-block;}
+.speaker-detail-top-close span{padding-right: 10px; font-size: 12px; line-height: 14px; letter-spacing: -0.01em; color: var(--grey3); font-family: 'LotaGrotesqueSemiBold'; display: inline-block;}
 .speaker-detail-top-close a{width: 46px; height: 46px; display: flex; flex-flow: row wrap; justify-content: center; align-items: center; background-color: var(--whisper); border-radius: 50%;}
 .speaker-detail-main-wrap{width: 100%;}
 .speaker-details { width: 50.4%; padding: 22px 20px; border-right: 1px solid #E9E9E9; }
@@ -1484,28 +1484,28 @@ var(--spanish-roast); }
 .speaker-details-speakers-thumb figure{float: left; width: 100%;}
 .speaker-details-speakers-thumb figure img{float: left; width: 100%; object-fit: cover;}
 .speaker-details-speakers-text{float: left; width: 100%; padding-top: 11px;}
-.speaker-details-speakers-text h5{font-weight: bold; margin-bottom: 8px;}
+.speaker-details-speakers-text h5{font-family: 'LotaGrotesqueBold'; margin-bottom: 8px;}
 .speaker-details-speakers-text p{font-size: 14px; line-height: 20px; color: var(--grey2);}
 .speaker-details-session{float: right; width: 41%;}
 .speaker-details-session .summit-agenda-item-top-right { float: left; width: 100%; }
-.speaker-details-session .summit-agenda-item-top-right dfn { padding: 5px 10px; background: #EBEBF5; border-radius: 2px; display: inline-block; margin-bottom: 16px; letter-spacing: 0.05em; text-transform: uppercase; text-align: center; font-size: 12px; line-height: 14px; font-weight: bold; color: var( --blue-pigment); }
+.speaker-details-session .summit-agenda-item-top-right dfn { padding: 5px 10px; background: #EBEBF5; border-radius: 2px; display: inline-block; margin-bottom: 16px; letter-spacing: 0.05em; text-transform: uppercase; text-align: center; font-size: 12px; line-height: 14px; font-family: 'LotaGrotesqueBold'; color: var( --blue-pigment); }
 .speaker-details-session .summit-agenda-item-top-right em{font-weight: normal; display: inline-block;}
 .speaker-details-session .summit-agenda-item-bottom-companies{float: left; width: 100%; padding-top: 16px;}
 .speaker-details-session .summit-agenda-item-bottom-companies h6{float: left; width: 100%;}
 .speaker-details-social{float: left; width: 100%; padding-top: 32px;}
-.speaker-details-social h6 { font-weight: 500; font-size: 12px; line-height: 14px; letter-spacing: -0.01em; color: var(--grey3); margin-bottom: 11px; }
+.speaker-details-social h6 { font-family: 'LotaGrotesqueSemiBold'; font-size: 12px; line-height: 14px; letter-spacing: -0.01em; color: var(--grey3); margin-bottom: 11px; }
 .speaker-details-social ul{display: flex; flex-flow: row wrap; width: 100%;}
 .speaker-details-social ul li {display: flex; flex-flow: row wrap; width: 100%; margin-bottom: 11px;}
 .speaker-details-social ul li:last-child{margin-bottom: 0;}
 .speaker-details-social ul li img { padding-right: 5px; }
-.speaker-details-social ul li a { font-size: 14px; line-height: 14px; letter-spacing: -0.01em; font-weight: 600; color: #1D1B4B; display: flex; flex-flow: row wrap; align-items: center; }
+.speaker-details-social ul li a { font-size: 14px; line-height: 14px; letter-spacing: -0.01em;  font-family: 'LotaGrotesqueSemiBold'; color: #1D1B4B; display: flex; flex-flow: row wrap; align-items: center; }
 .speaker-detail-content-wrap { float: left; width: 49.6%; padding: 22px 25px 26px 23px;}
-.speaker-detail-content-wrap span { background: #F9F7EF; border-radius: 2px; padding: 5px 10px; letter-spacing: 0.05em; text-transform: uppercase; font-weight: 700; font-size: 12px; line-height: 14px; color: #F9BA34; display: inline-block; margin-bottom: 11px; }
+.speaker-detail-content-wrap span { background: #F9F7EF; border-radius: 2px; padding: 5px 10px; letter-spacing: 0.05em; text-transform: uppercase;  font-family: 'LotaGrotesqueBold'; font-size: 12px; line-height: 14px; color: #F9BA34; display: inline-block; margin-bottom: 11px; }
 .speaker-detail-content-wrap p{font-size: 14px; line-height: 20px; color: var(--grey2); margin-bottom: 15px;}
 .speaker-detail-content-wrap em { padding: 10px 10px 11px 15px; background: #E9EAF3; border-radius: 4px; font-size: 14px; line-height: 20px; color: var(--grey3); display: block; float: left; width: 100%; margin-top: -3px; }
 .speaker-detail-bottom{float: left; width: 100%; background: #F9F7EF; border-radius: 0px 0px 4px 4px; }
 .speaker-detail-bottom-item { float: left; width: 50.4%; padding: 27px 20px 25px 20px; border-right: 1px solid #E9E9E9; }
-.speaker-detail-bottom-item a{font-size: 14px; line-height: 14px; font-weight: 600; letter-spacing: 0.05em;
+.speaker-detail-bottom-item a{font-size: 14px; line-height: 14px;  font-family: 'LotaGrotesqueSemiBold'; letter-spacing: 0.05em;
 text-transform: uppercase;  color: #BDBDBD; display: inline-block; margin-bottom: 6px;}
 .speaker-detail-bottom-item h6 { font-size: 22px; line-height: 26px; color: var(--dynamic-black); }
 .detail-bottom-right{width: 49.6%; border: none;}
@@ -1645,7 +1645,7 @@ text-transform: uppercase;  color: #BDBDBD; display: inline-block; margin-bottom
 .progress-active .registration-form-progress-count{border: 1px solid var(--whisper);}
 .registration-form-progress-item dfn { float: left; width: 100%; padding-left: 0; font-size: 14px; line-height: 14px; color: var(--white); text-align: center; margin-top: 10px; }
 input[type=file]::-webkit-file-upload-button { visibility: hidden; margin-left: 0; padding: 0; height: 0; width: 0px; }
-.fileUploadInput button { position: absolute; right: 0; bottom: 0; height: 50px; width: 50px; line-height: 0; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; color: white; background-color: #323262; border-radius: 0 3px 3px 0; font-family: arial, sans-serif; font-size: 1rem; font-weight: 800; }
+.fileUploadInput button { position: absolute; right: 0; bottom: 0; height: 50px; width: 50px; line-height: 0; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; color: white; background-color: #323262; border-radius: 0 3px 3px 0; font-family: arial, sans-serif; font-size: 1rem;}
 .registration-form-progress-item:first-child::after { content: ''; position: absolute; width: 72px; height: 1px; background-color: var(--white); top: 30px; right: -51px; }
 
 .file-upload-input{float: left; width: 100%; position: relative;}
@@ -1694,7 +1694,14 @@ input[type=file]::-webkit-file-upload-button { visibility: hidden; margin-left: 
 
 
 
-
+/* Custom cursor pointer style */
+.circle-cursor { position: fixed; left: 0; top: 0; pointer-events: none; border-radius: 50%; opacity: 0; }
+.circle-cursor--outer, .circle-Scroll--outer{width: 120px; height: 75px; z-index: 12000; left: 5px; top: 5px;}
+.circle-cursor--outer:before,.circle-cursor--outer:after,.circle-Scroll--outer:before,.circle-Scroll--outer:after{position: absolute; top: 50%; -webkit-transform: translateY(-50%); -moz-transform: translateY(-50%); transform: translateY(-50%); content: "";  width: 6px; height: 10px; background-image: url(../svgs/arrow-small-left.svg); background-size: 6px 10px; background-repeat: no-repeat; background-position: center center;}
+.circle-cursor--outer:before{left: 0;}
+.circle-cursor--outer:after{right: 0; background-image: url(../svgs/arrow-small-right.svg);}
+.circle-cursor--inner, .circle-Scroll--inner{width: 96px; height: 96px; left: -43px; top: -43px; z-index: 11000; font-size: 14px; text-align: center; line-height: 94px; color: var(--port-gore);  background: var(--glowing-lantern); font-family: 'LotaGrotesqueSemiBold'; }
+.circle-Scroll--outer:after{top: auto; bottom: -2.7px;}
 
 
 
@@ -2397,7 +2404,7 @@ input[type=file]::-webkit-file-upload-button { visibility: hidden; margin-left: 
      .summit-agenda-tab-trigger ul { padding-top: 4px; float: none; display: -webkit-flex; display: -moz-flex; display: -ms-flex; display: -o-flex; display: flex; display: block; width: auto; white-space: nowrap; justify-content: left; }
      .summit-agenda-tab-trigger ul li { float: none; width: auto; margin-bottom: 0; display: inline-block; margin-right: 10px;}
      .summit-agenda-tab-item-wrap { float: left; width: 100%; margin-left: 0; padding: 0 15px; margin-top: 18px; }
-     .summit-agenda-tab-trigger ul li a h6 { color: #1D1B4B; margin-bottom: 12px; font-weight: bold; font-size: 18px; line-height: 23px; letter-spacing: -0.019em; }
+     .summit-agenda-tab-trigger ul li a h6 { color: #1D1B4B; margin-bottom: 12px; font-family: 'LotaGrotesqueBold'; font-size: 18px; line-height: 23px; letter-spacing: -0.019em; }
      .summit-agenda-tab-trigger ul li.tab-active a::before{display: none;}
      .summit-agenda-tab-trigger ul li a { padding: 10px 15px; font-size: 14px; line-height: 18px; width: 100%; min-width: 293px; }
      .summit-agenda-tab-trigger ul li.tab-active a::after { width: 100%; height: calc(100% - 4px); }
