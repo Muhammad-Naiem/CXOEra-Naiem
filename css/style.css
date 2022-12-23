@@ -1678,7 +1678,6 @@ input[type=file]::-webkit-file-upload-button { visibility: hidden; margin-left: 
 .registration-form-authorization ul li:before{content: ''; position: absolute; top: 0; left: 0; width: 13px; height: 10px; background-image: url(../svgs/tick-orange.svg); background-size: 13px 10px; background-position: center center; background-repeat: no-repeat;}
 .registration-form-authorization em{float: left; font-size: 14px; line-height: 20px; padding-left: 16px; color: rgba(255, 255, 255, 0.5); margin-top: 21px; font-family: 'LotaGrotesqueRegularItalic';}
 
-
 .event-cancel-wrap{float: left; width: 100%; position: fixed; top: 0; left: 0; width: 100%; height: 100vh; z-index: 9999; background-color: rgb(30 30 30 / 80%); display: none;}
 .event-cancel-innner{float: left; width: 100%; height: 100%; display: -webkit-flex; display: -moz-flex; display: -ms-flex; display: -o-flex; display: flex; flex-flow: row wrap; align-items: center; justify-content: center;}
 
@@ -1691,9 +1690,6 @@ input[type=file]::-webkit-file-upload-button { visibility: hidden; margin-left: 
 .event-go-back-btn{float: left; width: 100%; text-align: center; margin-top: 17px; margin-bottom: 36px;}
 .event-go-back-btn a{letter-spacing: -0.01em; text-decoration-line: underline; font-size: 18px; line-height: 23px; text-align: center;     font-family: 'LotaGrotesqueRegular'; color: var(--dynamic-black);}
 
-
-
-
 /* Custom cursor pointer style */
 .circle-cursor { position: fixed; left: 0; top: 0; pointer-events: none; border-radius: 50%; opacity: 0; }
 .circle-cursor--outer, .circle-Scroll--outer{width: 120px; height: 75px; z-index: 12000; left: 5px; top: 5px;}
@@ -1702,7 +1698,6 @@ input[type=file]::-webkit-file-upload-button { visibility: hidden; margin-left: 
 .circle-cursor--outer:after{right: 0; background-image: url(../svgs/arrow-small-right.svg);}
 .circle-cursor--inner, .circle-Scroll--inner{width: 96px; height: 96px; left: -43px; top: -43px; z-index: 11000; font-size: 14px; text-align: center; line-height: 94px; color: var(--port-gore);  background: var(--glowing-lantern); font-family: 'LotaGrotesqueSemiBold'; }
 .circle-Scroll--outer:after{top: auto; bottom: -2.7px;}
-
 
 
 /* =======================================================================================================
